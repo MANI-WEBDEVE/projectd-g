@@ -1,16 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
   return (
-    <>
-      <nav className="flex items-center justify-between p-4 text-white bg-blue-500">
-        <a href="#" className="text-lg font-bold">Digital Pencil</a>
-        <ul className="flex space-x-4">
-          <li><a href="#" className="hover:underline">Home</a></li>
-          <li><a href="#" className="hover:underline">About</a></li>
-          <li><a href="#" className="hover:underline">Contact</a></li>
-        </ul>
-    <>
+  
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
@@ -97,11 +90,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </>
   )
 }
-    </>
-  );
-};
-
+    
 export default Header
