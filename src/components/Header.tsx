@@ -26,32 +26,56 @@ const Header = () => {
         <div className="hidden md:block">
           <div className="flex gap-5">
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 Home
               </p>
             </Link>
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 About Us
               </p>
             </Link>
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 Services
               </p>
             </Link>
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 Portfolio
               </p>
             </Link>
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 Testimonial
               </p>
             </Link>
             <Link href={"#"}>
+<<<<<<< HEAD
               <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                 Contact Us
               </p>
             </Link>
@@ -76,32 +100,56 @@ const Header = () => {
               <div className="hidden md:block">
                 <div className="flex gap-5">
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       Home
                     </p>
                   </Link>
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       About Us
                     </p>
                   </Link>
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       Services
                     </p>
                   </Link>
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       Portfolio
                     </p>
                   </Link>
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       Testimonial
                     </p>
                   </Link>
                   <Link href={"#"}>
+<<<<<<< HEAD
                     <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white  ">
+=======
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+>>>>>>> 905f281be97b9662a87a000a464bcafaace49500
                       Contact Us
                     </p>
                   </Link>
