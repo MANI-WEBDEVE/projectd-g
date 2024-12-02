@@ -58,6 +58,20 @@ const Header = () => {
             <Button variant="ghost" onClick={() => setIsSheetOpen(true)}>
               <Menu />
             </Button>
+<<<<<<< HEAD
+            <SheetContent side="right">
+              <div className="">
+                <Image
+                  src={"/image/logo.png"}
+                  height={110}
+                  width={110}
+                  alt="logo"
+                  // className=""
+                />
+              </div>
+              <div className="hidden md:block">
+                <div className="flex gap-5">
+=======
             <SheetContent
               className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform duration-300 ease-in-out"
               side="left"
@@ -78,7 +92,7 @@ const Header = () => {
                     <X className="w-8 h-8" />
                   </Button>
                 </div>
-                <div className="mt-10 space-y-2 flex flex-col gap-5">
+                <div className="mt-10 space-y-4">
                   <Link href={"#"}>
                     <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Home
