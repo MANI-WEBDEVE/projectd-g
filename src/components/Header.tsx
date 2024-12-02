@@ -20,32 +20,32 @@ const Header = () => {
         <div className="hidden md:block">
           <div className="flex gap-5">
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Home
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 About Us
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Services
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Portfolio
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Testimonial
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#6BBFBC] transition-all duration-300 cursor-pointer hover:text-white">
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Contact Us
               </p>
             </Link>
@@ -80,32 +80,32 @@ const Header = () => {
                 </div>
                 <div className="mt-10 space-y-2 flex flex-col gap-5">
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Home
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       About Us
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Services
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Portfolio
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Testimonial
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
+                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                       Contact Us
                     </p>
                   </Link>
