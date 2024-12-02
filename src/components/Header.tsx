@@ -19,12 +19,12 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
-            <Link href={"#"}>
+            <Link href={"/"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Home
               </p>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/aboutus"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 About Us
               </p>
