@@ -63,7 +63,7 @@ const Header = () => {
             <Button variant={"ghost"} onClick={() => setIsSheetOpen(true)}>
               <Menu />
             </Button>
-            <SheetContent>
+            <SheetContent side="right">
               <div className="">
                 <Image
                   src={"/image/logo.png"}
