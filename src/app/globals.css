@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @layer base {
@@ -32,9 +32,9 @@
     --ring: #030303;
     --radius: 0.75rem;
   }
- 
+
   .dark {
-    --background: #030303;
+    --background: #000000;
     --foreground: #ffffff;
     --card: #030303;
     --card-foreground: #ffffff;
