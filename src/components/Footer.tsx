@@ -5,8 +5,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center px-10 py-10  text-white w-full h-full mt-10">
-      <div className="flex flex-col w-[20%]">
+    <footer className=" flex flex-col md:flex-row justify-center items-center px-10 py-10  text-white w-full h-full mt-10 gap-10">
+      <div className="flex flex-col w-[80%] md:w-[20%]">
         <Image
           src={
             "https://digitalpencil.tech/wp-content/themes/nrgagency/img/footer-logo.png"
