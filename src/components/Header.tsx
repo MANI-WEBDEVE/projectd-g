@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -76,24 +76,23 @@ const Header = () => {
               className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform duration-300 ease-in-out"
               side="left"
             >
-              <div className="p-4">
+              <div className="p-10 mt-20">
                 <div className="flex justify-between items-center">
-                  <Image
+                  {/* <Image
                     src={"/image/logo.png"}
                     height={50}
                     width={50}
                     alt="logo"
-                  />
+                  /> */}
                   <Button
                     variant="ghost"
-                    className="text-white"
+                    className="text-white absolute right-0"
                     onClick={() => setIsSheetOpen(false)}
                   >
-                    Close
+                    <X className="w-8 h-8" />
                   </Button>
                 </div>
                 <div className="mt-10 space-y-4">
->>>>>>> ae447a686dc9086d6865731d6ff1f6916c898221
                   <Link href={"#"}>
                     <p className="text-[#6BBFBC] text-lg transition-all duration-300 cursor-pointer hover:text-white">
                       Home
