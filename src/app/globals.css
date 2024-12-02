@@ -58,6 +58,7 @@
 
 @layer base {
   body {
+    scroll-behavior: smooth;
     @apply bg-[var(--background)] text-[var(--foreground)];
   }
 }

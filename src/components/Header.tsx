@@ -29,7 +29,7 @@ const Header = () => {
                 About Us
               </p>
             </Link>
-            <Link href={"#"}>
+            <Link href={"#services"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Services
               </p>
