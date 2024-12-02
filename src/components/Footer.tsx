@@ -5,8 +5,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col md:flex-row justify-center items-center px-10 py-10  text-white w-full h-full mt-10 gap-10">
-      <div className="flex flex-col w-[80%] md:w-[20%]">
+    <footer className=" flex flex-col md:flex-row justify-between items-center px-10 py-10  text-white w-full h-full mt-10 gap-10">
+      <div className="flex flex-col justify-center items-center w-[80%] md:w-[20%]">
         <Image
           src={
             "https://digitalpencil.tech/wp-content/themes/nrgagency/img/footer-logo.png"
@@ -15,7 +15,7 @@ const Footer = () => {
           height={200}
           alt="footer-logo"
         />
-        <p className="font-thin text-xs  tracking-widest pr-10">
+        <p className="font-thin text-xs  tracking-widest pr-14 md:pr-10">
           eBooks Design, Flyers Design, Illustrations, Logo Design, Magazine
           Ads, Product Packgagings, Products Design, Social Media Post, T
           Shirts, Thumbnails Design, Web Design & Dvelopemnt & Mobile
