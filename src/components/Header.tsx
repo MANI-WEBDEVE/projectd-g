@@ -1,11 +1,10 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Sheet, SheetContent } from "./ui/sheet";
-import { Button } from "./ui/button";
+import SideNav from "@/components/SideNav";
 
 const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -26,6 +25,14 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
+            <Link
+              href="/"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   window.scrollTo({ top: 0, behavior: "smooth" });
+              // }}
+            >
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
             <Link href={"/"}>
               {/* I change the text color for better interactivity, 
               I removing this #00ffcc */}
@@ -38,11 +45,21 @@ const Header = () => {
                 About Us
               </p>
             </Link>
+            <a
+              href="#services"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("services")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
             <Link href={"#services"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Services
               </p>
-            </Link>
+            </a>
             <Link href={"#"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Portfolio
@@ -62,6 +79,14 @@ const Header = () => {
         </div>
 
         {/* Mobile navigation */}
+        <div className="block md:hidden">
+          <button
+            onClick={() => setIsSheetOpen(true)}
+            className="p-2 hover:bg-transparent"
+          >
+            <Menu style={{ width: "28px", height: "28px" }} />
+          </button>
+          <SideNav isOpen={isSheetOpen} onClose={() => setIsSheetOpen(false)} />
         <div className="block md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <Button variant="ghost" onClick={() => setIsSheetOpen(true)}>

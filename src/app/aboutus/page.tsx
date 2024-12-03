@@ -4,13 +4,13 @@ import { LayoutGrid } from "@/components/ui/layout-grid";
 
 export default function LayoutGridDemo() {
   return (
-    <div className="flex flex-col md:flex-row items-center w-full h-full mt-10">
-      <div className="h-screen py-20 w-full md:w-1/2">
+    <div className="flex flex-col md:flex-row items-center w-full h-full mt-10 sm:mt-14 ">
+      <div className="h-screen py-20 w-full md:w-[60%]">
         <LayoutGrid cards={cards} />
       </div>
-      <div className="w-full md:w-1/2 h-[80vh] py-0 flex flex-col justify-center items-center gap-5">
-        <h2 className="text-4xl font-bold ">About Agency</h2>
-        <p className="px-10">
+      <div className="w-full md:w-1/2 h-[80vh]  flex flex-col justify-center items-start   md:items-center gap-5">
+        <h2 className="text-4xl font-bold px-10 uppercase">About Agency</h2>
+        <p className="px-10 text-xs md:text-sm md:text-center">
           We are a dynamic, full-service creative agency specializing in a wide
           range of services to help your business thrive. From Logo Creation and
           Graphic Designing to innovative 3D Models, we craft visually stunning

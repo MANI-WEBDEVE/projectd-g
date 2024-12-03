@@ -8,8 +8,10 @@ const Services = () => {
   return (
     <div
       id="services"
+      className="h-[70vh] md:min-h-screen mx-auto w-full text-white flex items-center justify-center md:justify-between px-10"
       className="max-w-7xl mx-auto min-h-screen text-white flex lg:flex-row flex-col items-center justify-between gap-20 lg:mt-5 mt-16"
     >
+      <div className="hidden md:block md:w-1/2 ">
       <div className="relative flex items-center justify-center w-[420px] h-[500px] order-2 md:order-none">
         <Image
           src={"/image/bg_1.svg"}
@@ -18,10 +20,12 @@ const Services = () => {
           height={400}
         />
       </div>
+      <div>
+        <Tabs defaultValue="logo" className="w-full py-5">
       <div className="w-[500px] md:order-none order-1">
         <Tabs defaultValue="logo" className="w-full max-w-3xl">
           {/* Tabs List */}
-          <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#76c9b8] rounded-lg p-2">
+          <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#5FBEB5] rounded-lg p-2">
             <TabsTrigger
               value="logo"
               className="px-4 py-2 rounded-lg text-gray-900"
@@ -49,6 +53,8 @@ const Services = () => {
           </TabsList>
 
           {/* Tab Content */}
+          <div className="mt-6 w-full md:w-[50vw]  bg-gray-800 p-6 rounded-lg shadow-md">
+            <TabsContent value="logo">
           <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg h-full">
             <TabsContent value="logo" className="">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
