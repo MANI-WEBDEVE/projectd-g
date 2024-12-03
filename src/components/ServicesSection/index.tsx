@@ -8,17 +8,17 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="min-h-screen mx-auto w-full text-white flex items-center justify-between px-56"
+      className="max-w-7xl mx-auto min-h-screen text-white flex lg:flex-row flex-col items-center justify-between gap-20 lg:mt-5 mt-16"
     >
-      <div>
+      <div className="relative flex items-center justify-center w-[420px] h-[500px] order-2 md:order-none">
         <Image
           src={"/image/bg_1.svg"}
           alt="services"
-          width={500}
-          height={500}
+          width={400}
+          height={400}
         />
       </div>
-      <div>
+      <div className="w-[500px] md:order-none order-1">
         <Tabs defaultValue="logo" className="w-full max-w-3xl">
           {/* Tabs List */}
           <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#76c9b8] rounded-lg p-2">
@@ -49,10 +49,10 @@ const Services = () => {
           </TabsList>
 
           {/* Tab Content */}
-          <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-md">
-            <TabsContent value="logo">
+          <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg h-full">
+            <TabsContent value="logo" className="">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
-                Logo Creation
+                LOGO CREATION
               </h2>
               <p>
                 Create visually stunning logos that align with your brand
@@ -60,7 +60,7 @@ const Services = () => {
               </p>
             </TabsContent>
 
-            <TabsContent value="design">
+            <TabsContent value="design" className="">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
                 Graphic Designing
               </h2>
@@ -70,14 +70,14 @@ const Services = () => {
               </p>
             </TabsContent>
 
-            <TabsContent value="models">
+            <TabsContent value="models" className="">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
                 3D Models
               </h2>
               <p>High-quality 3D models for various applications.</p>
             </TabsContent>
 
-            <TabsContent value="marketing">
+            <TabsContent value="marketing" className="">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
                 Digital Marketing
               </h2>

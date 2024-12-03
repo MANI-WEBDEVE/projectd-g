@@ -11,41 +11,50 @@ const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <>
+    <div className="container mx-auto">
       {/* Desktop navigation */}
-      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-10 z-[100] backdrop-blur-md">
+      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-10 z-[100] backdrop-blur-lg">
         <div>
-          <Image src={"/image/logo.png"} height={110} width={110} alt="logo" />
+          <Link href={"/"}>
+            <Image
+              src={"/image/logo.png"}
+              height={110}
+              width={110}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
             <Link href={"/"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              {/* I change the text color for better interactivity, 
+              I removing this #00ffcc */}
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Home
               </p>
             </Link>
             <Link href={"/aboutus"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 About Us
               </p>
             </Link>
             <Link href={"#services"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Services
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Portfolio
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Testimonial
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Contact Us
               </p>
             </Link>
@@ -53,13 +62,13 @@ const Header = () => {
         </div>
 
         {/* Mobile navigation */}
-        <div className="block lg:hidden">
+        <div className="block md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <Button variant="ghost" onClick={() => setIsSheetOpen(true)}>
               <Menu />
             </Button>
             <SheetContent
-              className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform duration-300 ease-in-out"
+              className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform ease-in-out"
               side="left"
             >
               <div className="p-10 mt-20">
@@ -74,32 +83,32 @@ const Header = () => {
                 </div>
                 <div className="mt-10 space-y-4">
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       Home
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       About Us
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       Services
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       Portfolio
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       Testimonial
                     </p>
                   </Link>
                   <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
                       Contact Us
                     </p>
                   </Link>
@@ -109,7 +118,7 @@ const Header = () => {
           </Sheet>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
