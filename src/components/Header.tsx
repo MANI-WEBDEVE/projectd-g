@@ -32,13 +32,7 @@ const Header = () => {
               //   window.scrollTo({ top: 0, behavior: "smooth" });
               // }}
             >
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-            <Link href={"/"}>
-              {/* I change the text color for better interactivity, 
-              I removing this #00ffcc */}
-              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
-                Home
-              </p>
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md"></p>
             </Link>
             <Link href={"/aboutus"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
@@ -54,11 +48,7 @@ const Header = () => {
                   ?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-            <Link href={"#services"}>
-              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
-                Services
-              </p>
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md"></p>
             </a>
             <Link href={"#"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
@@ -87,60 +77,6 @@ const Header = () => {
             <Menu style={{ width: "28px", height: "28px" }} />
           </button>
           <SideNav isOpen={isSheetOpen} onClose={() => setIsSheetOpen(false)} />
-        <div className="block md:hidden">
-          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-            <Button variant="ghost" onClick={() => setIsSheetOpen(true)}>
-              <Menu />
-            </Button>
-            <SheetContent
-              className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform ease-in-out"
-              side="left"
-            >
-              <div className="p-10 mt-20">
-                <div className="flex justify-between items-center">
-                  <Button
-                    variant="ghost"
-                    className="text-white absolute right-0"
-                    onClick={() => setIsSheetOpen(false)}
-                  >
-                    <X className="w-8 h-8" />
-                  </Button>
-                </div>
-                <div className="mt-10 space-y-4">
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      Home
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      About Us
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      Services
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      Portfolio
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      Testimonial
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#fff] text-lg font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-white/80">
-                      Contact Us
-                    </p>
-                  </Link>
-                </div>
-              </div>
-            </SheetContent>
-          </Sheet>
         </div>
       </nav>
     </div>
