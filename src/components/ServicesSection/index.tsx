@@ -80,7 +80,7 @@ const Services = () => {
               value="productdesign"
               className="px-4 py-2 rounded-lg text-gray-900"
             >
-              PROUDUCT DESIGN / PRODUCT PACKAGING
+              PROUDUCT DESIGN / <br /> PRODUCT PACKAGING
             </TabsTrigger>
             <TabsTrigger
               value="softwaredevelopment"
