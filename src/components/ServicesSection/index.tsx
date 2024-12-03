@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="h-[70vh] md:min-h-screen mx-auto w-full text-white flex items-center justify-center md:justify-between px-10"
+      className="h-full md:h-full w-full text-white flex items-center mt-10 justify-center md:justify-between px-10"
     >
       <div className="hidden md:block md:w-1/2 ">
         <Image
