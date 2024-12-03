@@ -18,17 +18,17 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo({ top: 0, behavior: "smooth" });
-              }}
+            <Link
+              href="/"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   window.scrollTo({ top: 0, behavior: "smooth" });
+              // }}
             >
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Home
               </p>
-            </a>
+            </Link>
             <Link href={"/aboutus"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 About Us
