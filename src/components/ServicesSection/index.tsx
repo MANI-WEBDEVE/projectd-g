@@ -21,7 +21,7 @@ const Services = () => {
       <div>
         <Tabs defaultValue="logo" className="w-full py-5">
           {/* Tabs List */}
-          <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#5FBEB5] rounded-lg p-2">
+          <TabsList className="grid grid-cols-2 h-auto gap-2 bg-[#5FBEB5] rounded-lg p-2">
             <TabsTrigger
               value="logo"
               className="px-4 py-2 rounded-lg text-gray-900"
@@ -46,6 +46,54 @@ const Services = () => {
             >
               DIGITAL MARKETING
             </TabsTrigger>
+            <TabsTrigger
+              value="ecommerce"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              ECOMMERCE
+            </TabsTrigger>
+            <TabsTrigger
+              value="webdesign&developer"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              WEB DESIGN & DEVELOPER
+            </TabsTrigger>
+            <TabsTrigger
+              value="videoanimation"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              VIDEO ANIMATION
+            </TabsTrigger>
+            <TabsTrigger
+              value="shirtdesign"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              T-SHIRT DESIGN
+            </TabsTrigger>
+            <TabsTrigger
+              value="nft"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              NFT
+            </TabsTrigger>
+            <TabsTrigger
+              value="productdesign"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              PROUDUCT DESIGN / PRODUCT PACKAGING
+            </TabsTrigger>
+            <TabsTrigger
+              value="softwaredevelopment"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              SOFTWARE DEVELOPMENT
+            </TabsTrigger>
+            <TabsTrigger
+              value="appdeveloper"
+              className="px-4 py-2 rounded-lg text-gray-900"
+            >
+              APP DEVELOPER
+            </TabsTrigger>
           </TabsList>
 
           {/* Tab Content */}
@@ -55,8 +103,20 @@ const Services = () => {
                 Logo Creation
               </h2>
               <p>
-                Create visually stunning logos that align with your brand
-                identity.
+                Logo Creation Services are essential for businesses looking to
+                establish a strong brand identity. A well-designed logo serves
+                as the visual cornerstone of your brand, capturing its essence
+                and conveying its message to your target audience. Professional
+                logo creation involves a strategic blend of creativity, design
+                expertise, and market research, ensuring that your logo stands
+                out in a competitive market and resonates with your customers.
+                From start-ups to established companies, a custom logo helps set
+                the tone for your brands visual language across various
+                platforms—be it your website, social media, packaging, or
+                promotional materials. Our logo creation services include a
+                detailed consultation process, multiple design iterations, and a
+                final product tailored to reflect your brands unique personality
+                and values, leaving a memorable impression on your customers.
               </p>
             </TabsContent>
 
@@ -65,8 +125,19 @@ const Services = () => {
                 Graphic Designing
               </h2>
               <p>
-                Professional designs for marketing, advertising, and brand
-                visibility.
+                Graphic Designing Services offer creative solutions to visually
+                communicate your brands message and captivate your audience. By
+                combining art and technology, professional graphic designers
+                create stunning visuals such as logos, brochures, social media
+                graphics, and website elements. These services help businesses
+                establish a cohesive visual identity, enhance user experience,
+                and leave a lasting impression on potential customers. Whether
+                youre looking to build brand recognition, promote a new product,
+                or refresh your existing marketing materials, graphic designing
+                services cater to various needs. From concept development to
+                final delivery, each project is crafted with a strategic
+                approach, ensuring that your visuals align with your brands
+                values and effectively engage your target market.
               </p>
             </TabsContent>
 
@@ -74,7 +145,22 @@ const Services = () => {
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
                 3D Models
               </h2>
-              <p>High-quality 3D models for various applications.</p>
+              <p>
+                3D Modeling Services bring ideas to life by creating detailed
+                and realistic representations of products, architectural
+                designs, characters, and environments. Using advanced software
+                and techniques, skilled 3D artists develop models for various
+                applications, including animation, virtual reality, gaming,
+                product visualization, and prototyping. These services allow
+                businesses to present complex concepts in a visually engaging
+                and interactive manner. From conceptual designs to final
+                renderings, 3D modeling services help clients explore different
+                perspectives, test functionality, and showcase their projects
+                with precision and depth. Whether for marketing, training, or
+                development, 3D models provide a dynamic way to visualize and
+                refine ideas, making them invaluable tools for industries like
+                architecture, manufacturing, and entertainment.
+              </p>
             </TabsContent>
 
             <TabsContent value="marketing">
@@ -82,8 +168,24 @@ const Services = () => {
                 Digital Marketing
               </h2>
               <p>
-                Boost your brand's online presence with our marketing
-                strategies.
+                Digital Marketing Services are designed to help businesses
+                increase their online visibility, reach their target audience,
+                and drive growth. By leveraging various strategies like search
+                engine optimization (SEO), social media marketing, pay-per-click
+                (PPC) advertising, email marketing, and content creation,
+                digital marketing experts create customized campaigns that
+                deliver measurable results. These services are essential for
+                building brand awareness, generating leads, and boosting
+                conversions in an increasingly digital world. From small
+                businesses to large enterprises, digital marketing services
+                provide a comprehensive approach to online promotion. By
+                analyzing market trends and consumer behavior, these services
+                ensure that your marketing efforts are aligned with your
+                business goals, reaching the right customers at the right time.
+                Whether you aim to increase website traffic, enhance social
+                media engagement, or improve your search engine rankings,
+                digital marketing services offer the expertise and tools needed
+                to maximize your online presence and drive long-term success.
               </p>
             </TabsContent>
           </div>
