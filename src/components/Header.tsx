@@ -50,7 +50,7 @@ const Header = () => {
             >
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md"></p>
             </a>
-            <Link href={"#"}>
+            <Link href={"portfolio"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Portfolio
               </p>
