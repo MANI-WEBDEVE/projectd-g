@@ -63,7 +63,7 @@ const Hero = () => {
         );
         
         // Word animation
-        const words = textRef.current?.querySelectorAll('.word');
+        const words:any = textRef.current?.querySelectorAll('.word');
         gsap.set(words, { opacity: 0 }); // Set initial state
 
         gsap.to(words, {
