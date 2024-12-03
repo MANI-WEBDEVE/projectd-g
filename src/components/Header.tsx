@@ -10,11 +10,18 @@ const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <>
+    <div className="container mx-auto">
       {/* Desktop navigation */}
-      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-10 z-[100] backdrop-blur-md">
+      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-10 z-[100] backdrop-blur-lg">
         <div>
-          <Image src={"/image/logo.png"} height={110} width={110} alt="logo" />
+          <Link href={"/"}>
+            <Image
+              src={"/image/logo.png"}
+              height={110}
+              width={110}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
@@ -25,12 +32,10 @@ const Header = () => {
               //   window.scrollTo({ top: 0, behavior: "smooth" });
               // }}
             >
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                Home
-              </p>
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md"></p>
             </Link>
             <Link href={"/aboutus"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 About Us
               </p>
             </Link>
@@ -43,22 +48,20 @@ const Header = () => {
                   ?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                Services
-              </p>
+              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md"></p>
             </a>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Portfolio
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Testimonial
               </p>
             </Link>
             <Link href={"#"}>
-              <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Contact Us
               </p>
             </Link>
@@ -76,7 +79,7 @@ const Header = () => {
           <SideNav isOpen={isSheetOpen} onClose={() => setIsSheetOpen(false)} />
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

@@ -28,25 +28,27 @@ const InfiniteLogo = () => {
     <>
       <div
         className="slider pb-20"
-        style={{
-          "--width": "84px",
-          "--height": "50px",
-          "--quantity": doubledLogos.length,
-        } as React.CSSProperties}
+        style={
+          {
+            "--width": "84px",
+            "--height": "50px",
+            "--quantity": doubledLogos.length,
+          } as React.CSSProperties
+        }
       >
         <div className="list">
           {doubledLogos.map((logo, index) => (
-            <div 
-              key={index} 
-              className="item" 
+            <div
+              key={index}
+              className="item"
               style={{ "--position": index + 1 } as React.CSSProperties}
             >
-              <Image 
-                src={logo} 
-                height={100} 
-                width={100} 
+              <Image
+                src={logo}
+                height={100}
+                width={100}
                 alt={`Brand logo ${index + 1}`}
-                className="object-contain"
+                className="object-contain rounded-md cursor-pointer"
               />
             </div>
           ))}
