@@ -59,6 +59,7 @@
 @layer base {
   body {
     scroll-behavior: smooth;
+    transition: all 0.2s ease-in-out;
     @apply bg-[var(--background)] text-[var(--foreground)];
   }
 }

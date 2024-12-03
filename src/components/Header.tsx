@@ -1,11 +1,10 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Sheet, SheetContent } from "./ui/sheet";
-import { Button } from "./ui/button";
+import SideNav from "@/components/SideNav";
 
 const Header = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -19,21 +18,35 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <div className="flex gap-5">
-            <Link href={"/"}>
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+            >
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Home
               </p>
-            </Link>
+            </a>
             <Link href={"/aboutus"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 About Us
               </p>
             </Link>
-            <Link href={"#services"}>
+            <a
+              href="#services"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("services")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Services
               </p>
-            </Link>
+            </a>
             <Link href={"#"}>
               <p className="text-[#76c9b8] transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Portfolio
@@ -53,60 +66,14 @@ const Header = () => {
         </div>
 
         {/* Mobile navigation */}
-        <div className="block lg:hidden">
-          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-            <Button variant="ghost" onClick={() => setIsSheetOpen(true)}>
-              <Menu />
-            </Button>
-            <SheetContent
-              className="w-[80%] h-full bg-[#1F1F1F] text-white fixed left-0 top-0 shadow-lg transition-transform duration-300 ease-in-out"
-              side="left"
-            >
-              <div className="p-10 mt-20">
-                <div className="flex justify-between items-center">
-                  <Button
-                    variant="ghost"
-                    className="text-white absolute right-0"
-                    onClick={() => setIsSheetOpen(false)}
-                  >
-                    <X className="w-8 h-8" />
-                  </Button>
-                </div>
-                <div className="mt-10 space-y-4">
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      Home
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      About Us
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      Services
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      Portfolio
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      Testimonial
-                    </p>
-                  </Link>
-                  <Link href={"#"}>
-                    <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                      Contact Us
-                    </p>
-                  </Link>
-                </div>
-              </div>
-            </SheetContent>
-          </Sheet>
+        <div className="block md:hidden">
+          <button
+            onClick={() => setIsSheetOpen(true)}
+            className="p-2 hover:bg-transparent"
+          >
+            <Menu style={{ width: "28px", height: "28px" }} />
+          </button>
+          <SideNav isOpen={isSheetOpen} onClose={() => setIsSheetOpen(false)} />
         </div>
       </nav>
     </>

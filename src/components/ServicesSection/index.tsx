@@ -8,9 +8,9 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="min-h-screen mx-auto w-full text-white flex items-center justify-between px-56"
+      className="h-[70vh] md:min-h-screen mx-auto w-full text-white flex items-center justify-center md:justify-between px-10"
     >
-      <div>
+      <div className="hidden md:block md:w-1/2 ">
         <Image
           src={"/image/bg_1.svg"}
           alt="services"
@@ -19,9 +19,9 @@ const Services = () => {
         />
       </div>
       <div>
-        <Tabs defaultValue="logo" className="w-full max-w-3xl">
+        <Tabs defaultValue="logo" className="w-full py-5">
           {/* Tabs List */}
-          <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#76c9b8] rounded-lg p-2">
+          <TabsList className="grid grid-cols-2 h-24 gap-2 bg-[#5FBEB5] rounded-lg p-2">
             <TabsTrigger
               value="logo"
               className="px-4 py-2 rounded-lg text-gray-900"
@@ -49,7 +49,7 @@ const Services = () => {
           </TabsList>
 
           {/* Tab Content */}
-          <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-md">
+          <div className="mt-6 w-full md:w-[50vw]  bg-gray-800 p-6 rounded-lg shadow-md">
             <TabsContent value="logo">
               <h2 className="text-xl font-bold mb-2 text-[#76c9b8]">
                 Logo Creation
