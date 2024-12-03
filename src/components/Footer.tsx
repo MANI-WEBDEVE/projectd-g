@@ -22,14 +22,19 @@ const Footer = () => {
           Application Development
         </p>
       </div>
-      <div className="flex gap-5 items-center justify-center">
-      <Facebook className="w-8 h-8 text-blue-700"/>
-      <Instagram  className="w-8 h-8 text-pink-700"/>
-      <Youtube className="w-9 h-9 text-red-700"/>
-      <FaTiktok className=" text-black fill-slate-200" style={{width: "24px", height: "24px"}}/>
+      <div className="flex gap-5 ml-10 items-center justify-center">
+        <Facebook className="w-8 h-8 text-blue-700 cursor-pointer" />
+        <Instagram className="w-8 h-8 text-pink-700 cursor-pointer" />
+        <Youtube className="w-9 h-9 text-red-700 cursor-pointer" />
+        <FaTiktok
+          className=" cursor-pointer text-black fill-slate-200"
+          style={{ width: "24px", height: "24px" }}
+        />
       </div>
       <div>
-        <p className=" text-[12px] md:text-[16px] tracking-wider text-center">Copyright © 2024 - All Rights Reserved</p>
+        <p className=" text-[12px] md:text-[16px] tracking-wider text-center">
+          Copyright © 2024 - All Rights Reserved
+        </p>
       </div>
     </footer>
   );

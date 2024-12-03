@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { X } from 'lucide-react';
-import { gsap } from 'gsap';
+import React, { useEffect, useRef } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { X } from "lucide-react";
+import { gsap } from "gsap";
 
 interface SideNavProps {
   isOpen: boolean;
@@ -23,7 +23,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
         duration: 0.3,
         ease: "power2.out",
       });
-      
+
       // Animate sidenav
       gsap.to(sideNavRef.current, {
         x: 0,
@@ -37,7 +37,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
         duration: 0.3,
         ease: "power2.in",
       });
-      
+
       // Animate sidenav out
       gsap.to(sideNavRef.current, {
         x: "-100%",
@@ -54,7 +54,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
         ref={overlayRef}
         onClick={onClose}
         className={`fixed inset-0 z-[201] bg-black/80 opacity-0 transition-opacity ${
-          isOpen ? 'pointer-events-auto' : 'pointer-events-none'
+          isOpen ? "pointer-events-auto" : "pointer-events-none"
         }`}
       />
 
@@ -66,7 +66,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
         <div className="px-10">
           <div className="flex justify-between items-center pt-4">
             <Image src="/image/logo.png" height={110} width={110} alt="logo" />
-            <button 
+            <button
               onClick={onClose}
               className="text-white/70 hover:text-white transition-colors"
             >
@@ -79,7 +79,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
               href="/"
               onClick={(e) => {
                 e.preventDefault();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({ top: 0, behavior: "smooth" });
                 onClose();
               }}
             >
@@ -87,7 +87,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 Home
               </p>
             </a>
-            <Link href="#" onClick={onClose}>
+            <Link href="/aboutus" onClick={onClose}>
               <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 About Us
               </p>
@@ -96,7 +96,9 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
               href="#services"
               onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                document
+                  .getElementById("services")
+                  ?.scrollIntoView({ behavior: "smooth" });
                 onClose();
               }}
             >
