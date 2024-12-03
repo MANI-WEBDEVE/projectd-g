@@ -27,10 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-neutral-950 text-white">
+      <body className="bg-neutral-950 text-white min-h-screen">
         <Header/>
         {children}
         <Footer/>
+        <div className=" absolute inset-0 -z-50 max-h-screen bg-[radial-gradient(circle_at_top_center,hsla(222,80%,60%,0.655)_0%,hsla(222,0%,0%,0)_50%,hsla(222,0%,0%,0)_100%)]"></div>
+        <div className="absolute inset-0 opacity-20 mix-blend-soft-light w-full h-full -z-[5] bg-[url('/image/noise.jpg')]"> </div> 
       </body>
     </html>
   );
