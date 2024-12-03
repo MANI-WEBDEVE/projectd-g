@@ -30,17 +30,11 @@ export default function RootLayout({
       <body className="bg-neutral-950 text-white min-h-screen">
         <Header />
         {children}
-<<<<<<< HEAD
-        <div className=" absolute inset-0 -z-50 max-h-screen bg-[radial-gradient(circle_at_top_center,hsla(222,80%,60%,0.655)_0%,hsla(222,0%,0%,0)_50%,hsla(222,0%,0%,0)_100%)]"></div>
-        {/* <div className="absolute inset-0 opacity-20 mix-blend-soft-light w-full h-full -z-[5] bg-[url('/image/noise.jpg')]"> </div>  */}
-        <Footer/>
-=======
         <Footer />
         <div className="absolute inset-0 -z-50 max-h-screen bg-[radial-gradient(circle_at_top_center,hsla(222,80%,60%,0.655)_0%,hsla(222,0%,0%,0)_50%,hsla(222,0%,0%,0)_100%)]"></div>
-        <div className=" absolute inset-0 opacity-20 mix-blend-soft-light w-full h-full -z-[5] bg-[url('/image/noise.jpg')]">
-          {" "}
-        </div>
->>>>>>> e3008dd7b1f53bef767923258c9fd6852ecba2c3
+        {/* <div className=" absolute inset-0 opacity-20 mix-blend-soft-light w-full h-full -z-[5] bg-[url('/image/noise.jpg')]"> */}
+         
+        {/* </div> */}
       </body>
     </html>
   );
