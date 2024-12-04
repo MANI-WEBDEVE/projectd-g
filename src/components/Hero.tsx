@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { BackgroundLines } from "./ui/background-lines";
 import { gsap } from "gsap";
@@ -32,13 +32,13 @@ const Hero = () => {
     "and",
     "innovative",
     "digital",
-    "solutions."
+    "solutions.",
   ];
 
   useEffect(() => {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
-    
+
     // Check for window to ensure this code runs only on the client
     if (typeof window !== undefined) {
       const ctx = gsap.context(() => {
@@ -46,7 +46,7 @@ const Hero = () => {
         tl.fromTo(
           component.current,
           {
-            y: 100,
+            y: 200,
             opacity: 0,
           },
           {
@@ -61,9 +61,9 @@ const Hero = () => {
             },
           }
         );
-        
+
         // Word animation
-        const words:any = textRef.current?.querySelectorAll('.word');
+        const words: any = textRef.current?.querySelectorAll(".word");
         gsap.set(words, { opacity: 0 }); // Set initial state
 
         gsap.to(words, {
@@ -71,15 +71,15 @@ const Hero = () => {
             trigger: textRef.current,
             start: "top center",
             end: "bottom center",
-            markers: true,
+            // markers: true,
             scrub: 1,
-            toggleActions: "play none none reverse"
+            toggleActions: "play none none reverse",
           },
           opacity: 1,
           duration: 0.5,
           stagger: {
             each: 0.2,
-            from: "start"
+            from: "start",
           },
           ease: "power2.inOut",
         });
@@ -88,7 +88,6 @@ const Hero = () => {
     }
   }, []);
 
-  
   return (
     <div>
       <BackgroundLines className="flex items-center justify-center mt-[6rem] w-full flex-col px-4 md:mt-[24rem] min-[769px]:mt-16 relative">
@@ -99,7 +98,10 @@ const Hero = () => {
         <h2 ref={component} className="bg-clip-text text-transparent text-center bg-gradient-to-bl from-[#49ceb3] to-[#db6b7a] dark:to-white text-4xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative font-bold tracking-tight opacity-0 dpname">
             Transform Your Vision <br /> Into Digital Art
         </h2>
-        <div ref={textRef} className="para max-w-xl mx-auto text-xs md:text-lg text-neutral-300 dark:text-neutral-200 text-center px-4">
+        <div
+          ref={textRef}
+          className="para max-w-xl mx-auto text-xs md:text-lg text-neutral-300 dark:text-neutral-200 text-center px-4"
+        >
           {words.map((word, index) => (
             <span key={index} className="word inline-block mx-1 opacity-0">
               {word}
