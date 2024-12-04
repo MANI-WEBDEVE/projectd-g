@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-neutral-950 text-white min-h-screen">
         <SmoothScroll>
-          <CursorComponent/>
+          {/* <CursorComponent/> */}
           <Header />
           {children}
           <Footer />
