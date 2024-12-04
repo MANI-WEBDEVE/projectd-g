@@ -1,9 +1,4 @@
-/**
- * Contact page
- *
- * This is the contact page. It provides a form for users to get in touch.
- */
-
+"use client";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 
