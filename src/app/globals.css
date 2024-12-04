@@ -65,3 +65,31 @@
     @apply bg-[var(--background)] text-[var(--foreground)];
   }
 }
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #0f1015;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0f1015;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #232842;
+  border-radius: 50px;
+  border: 2px solid #0f1015;
+  transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2f3557;
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #232842 #0f1015;
+}
