@@ -60,7 +60,7 @@ const Header = () => {
                 Testimonial
               </p>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/contact"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                 Contact Us
               </p>
