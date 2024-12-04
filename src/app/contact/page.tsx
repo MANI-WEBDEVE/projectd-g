@@ -9,20 +9,24 @@ import { Input } from "@/components/ui/input";
 
 const ContactPage = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center translate-y-10 px-4 md:px-8">
+    <div className="w-full h-full flex flex-col items-center justify-center mt-28 px-4 relative">
       {/* Centered container */}
       <div className="max-w-lg mx-auto text-center flex flex-col gap-5 ">
         {/* Title */}
-        <h1 className="text-4xl font-bold tracking-widest">Get Into Touch</h1>
-        {/* Text */}
-        <p className="text-lg font-semibold tracking-tight leading-[1.2]">
+        <h1 className="text-6xl font-bold "><span className="text-blue-500 font-thin uppercase">get</span> Into <span className="text-blue-500 font-thin uppercase">Touch</span></h1>
+        {/* Text */}  
+        <p className="text-md font-extralight tracking-tight leading-[1.2] ">
           You can easily find us online through our website or by reaching out
           via social media and email. We’re always ready to connect and discuss
           how we can help bring your digital vision to life.
         </p>
       </div>
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 mt-10">
-        <div className="p-5 flex flex-col gap-10">
+      <div className="w-full h-full absolute -z-[999] left-0 md:-left-[28rem]  top-[0.5rem]">
+        <iframe src="https://app.endlesstools.io/embed/a1ca7120-c627-43c7-b542-9c4a53d39f6b" className="w-full h-full"></iframe>
+      </div>
+      <div className="w-full  flex flex-col lg:flex-row items-start justify-center gap-10 mt-12">
+        <div className="w-full py-5 px-9 flex flex-col items-center justify-center gap-10 text-center mt-4 relative">
+          <div className="w-[30%] h-[30%] bg-emerald-500 absolute rounded-full blur-[80px] animate-pulse"></div>
           <div>
             <h2 className="font-bold text-lg mb-5">ADDRESS</h2>
             <span>7901 4th ST N Site 11869. ST Petersnurg, FL 33702-4305</span>
@@ -36,8 +40,8 @@ const ContactPage = () => {
             <span>info@digitalpencil.com</span>
           </div>
         </div>
-        <div className="w-full lg:w-auto">
-          <form className="flex flex-col gap-4 p-5 bg-gray-800 text-white rounded-md w-full max-w-2xl mx-auto lg:mx-0">
+        <div className="w-full flex items-center justify-center ">
+          <form className="flex flex-col gap-4  p-5 bg-gray-800 text-white rounded-md w-[66%]  lg:mx-0">
             <label className="flex flex-col">
               <span className="mb-1">Full Name</span>
               <Input
