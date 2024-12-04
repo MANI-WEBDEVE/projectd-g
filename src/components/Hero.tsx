@@ -46,7 +46,7 @@ const Hero = () => {
         tl.fromTo(
           component.current,
           {
-            y: 100,
+            y: 200,
             opacity: 0,
           },
           {
@@ -71,7 +71,7 @@ const Hero = () => {
             trigger: textRef.current,
             start: "top center",
             end: "bottom center",
-            markers: true,
+            // markers: true,
             scrub: 1,
             toggleActions: "play none none reverse",
           },
