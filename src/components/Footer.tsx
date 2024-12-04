@@ -24,28 +24,29 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex gap-5 ml-10 items-center justify-center">
-        <Link href="https://www.facebook.com/profile.php?id=61553864795239&mibextid=qi2Omg&rdid=dCjCE905Gz5bNCKT#">
-          <a target="_blank" rel="noopener noreferrer">
-            <Facebook className="w-8 h-8 text-blue-700 cursor-pointer" />
-          </a>
+        <Link
+          href="https://www.facebook.com/profile.php?id=61553864795239&mibextid=qi2Omg&rdid=dCjCE905Gz5bNCKT#"
+          target="_blank"
+        >
+          <Facebook className="w-8 h-8 text-blue-700 cursor-pointer" />
         </Link>
-        <Link href="https://www.instagram.com/digitalpencil.786/profilecard/?igsh=M3djbnpudXhzem9y">
-          <a target="_blank" rel="noopener noreferrer">
-            <Instagram className="w-8 h-8 text-pink-700 cursor-pointer" />
-          </a>
+        <Link
+          href="https://www.instagram.com/digitalpencil.786/profilecard/?igsh=M3djbnpudXhzem9y"
+          target="_blank"
+        >
+          <Instagram className="w-8 h-8 text-pink-700 cursor-pointer" />
         </Link>
-        <Link href="https://www.youtube.com/@digitalpencil786">
-          <a target="_blank" rel="noopener noreferrer">
-            <Youtube className="w-9 h-9 text-red-700 cursor-pointer" />
-          </a>
+        <Link href="https://www.youtube.com/@digitalpencil786" target="_blank">
+          <Youtube className="w-9 h-9 text-red-700 cursor-pointer" />
         </Link>
-        <Link href="https://www.tiktok.com/@digitalpencil786?_t=8rKTibCOpIO&_r=1">
-          <a target="_blank" rel="noopener noreferrer">
-            <FaTiktok
-              className=" cursor-pointer text-black fill-slate-200"
-              style={{ width: "24px", height: "24px" }}
-            />
-          </a>
+        <Link
+          href="https://www.tiktok.com/@digitalpencil786?_t=8rKTibCOpIO&_r=1"
+          target="_blank"
+        >
+          <FaTiktok
+            className=" cursor-pointer text-black fill-slate-200"
+            style={{ width: "24px", height: "24px" }}
+          />
         </Link>
       </div>
       <div>
