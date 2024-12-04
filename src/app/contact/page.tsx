@@ -97,16 +97,23 @@ const ContactPage = () => {
               <span className="mb-1">Your Name</span>
               <Input
                 type="text"
+                required
                 className="p-2 bg-gray-700 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white/70"
                 placeholder="Enter your full name"
                 value={formData.name}
-                onChange={handleChange}
+                onChange={(e) =>
+                  setFormData({
+                    ...formData,
+                    name: e.target.value,
+                  })
+                }
               />
             </label>
             <label className="flex flex-col">
               <span className="mb-1">Email</span>
               <Input
                 type="email"
+                required
                 className="p-2 bg-gray-700 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white/70"
                 placeholder="Enter your email"
                 value={formData.email}
@@ -117,6 +124,7 @@ const ContactPage = () => {
               <span className="mb-1">Contact Phone</span>
               <Input
                 type="number"
+                required
                 className="p-2 bg-gray-700 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white/70"
                 placeholder="Enter your contact phone"
                 value={formData.phone}
@@ -127,6 +135,7 @@ const ContactPage = () => {
               <span className="mb-1">Subject</span>
               <Input
                 type="text"
+                required
                 className="p-2 bg-gray-700 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white/70"
                 placeholder="Enter the subject"
                 value={formData.subject}
@@ -136,6 +145,7 @@ const ContactPage = () => {
             <label className="flex flex-col">
               <span className="mb-1">Message</span>
               <textarea
+                required
                 className="p-2 bg-gray-700 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-white/70"
                 placeholder="Enter your message"
                 rows={4}
