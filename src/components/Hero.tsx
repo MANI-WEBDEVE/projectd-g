@@ -91,7 +91,7 @@ const Hero = () => {
   return (
     <div>
       <BackgroundLines className="flex items-center justify-center mt-[6rem] w-full flex-col px-4 md:mt-[24rem] min-[769px]:mt-16 relative">
-        <div className=" w-full h-full  absolute ">
+        <div className=" w-full h-full z-[999] absolute ">
         <iframe className="w-full h-full" src="https://app.endlesstools.io/embed/e3b727da-353c-4d46-be8e-a7d0b8a11e93
         " ></iframe>
         </div>
