@@ -59,7 +59,7 @@ const ContactPage = () => {
   console.log(formData, "formData");
 
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center mt-28 px-4 relative">
+    <div className="w-full h-auto flex flex-col items-center justify-center translate-y-10 px-4 md:px-8">
       {/* Centered container */}
       <div className="max-w-lg mx-auto text-center flex flex-col gap-5 ">
         {/* Title */}
