@@ -2,7 +2,6 @@ import PortfolioCard from "@/components/PortfolioCard";
 import React from "react";
 import { TabsBtn, TabsProvider, TabsContent } from "@/components/tabs";
 const PortfolioPage = () => {
- 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">
       <h1 className="text-4xl font-bold tracking-tight leading-3 mt-40">
@@ -11,7 +10,8 @@ const PortfolioPage = () => {
       <div className="min-h-screen pt-24">
         <TabsProvider defaultValue={"Magzine Ads"} wobbly={true}>
           <div className="flex justify-center mt-2">
-            <div className="flex items-center flex-wrap dark:bg-[#1a1c20] bg-white/10 p-1 mx-4 text-white dark:text-white  rounded-md  ">
+            {/* flex items-center flex-wrap */}
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 dark:bg-[#1a1c20] bg-white/10 p-1 mx-4 text-white dark:text-white  rounded-md  ">
               <TabsBtn value="Magzine Ads">
                 <span className="relative z-[2] uppercase border-b-[1px]  border-white/40 ">
                   Magzine Ads
