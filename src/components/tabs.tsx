@@ -122,7 +122,7 @@ export const TabsBtn = ({ children, className, value }: any) => {
                   },
                 }}
                 layoutId={defaultValue}
-                className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white rounded-md  z-[1]'
+                className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white/15 rounded-md  z-[1]'
               />
             </AnimatePresence>
           )}
@@ -140,7 +140,7 @@ export const TabsBtn = ({ children, className, value }: any) => {
                       },
                     }}
                     layoutId={defaultValue}
-                    className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white rounded-md  z-[1] tab-shadow'
+                    className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white/15 rounded-md  z-[1] tab-shadow'
                   />
                 </AnimatePresence>
               )}
@@ -155,7 +155,7 @@ export const TabsBtn = ({ children, className, value }: any) => {
                       },
                     }}
                     layoutId={`${defaultValue}b`}
-                    className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white rounded-md  z-[1] tab-shadow'
+                    className='absolute w-full h-full left-0 top-0 dark:bg-base-dark bg-white/15 rounded-md  z-[1] tab-shadow'
                   />
                 </AnimatePresence>
               )}
@@ -185,7 +185,7 @@ export const TabsContent = ({ children, className, value, yValue }: any) => {
               ease: 'easeInOut',
               delay: 0.5,
             }}
-            className={cn(' p-2 px-4 rounded-md relative', className)}
+            className={cn(' rounded-md relative', className)}
           >
             {activeTab === value ? children : null}
           </motion.div>

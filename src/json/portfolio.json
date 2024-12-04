@@ -1,0 +1,162 @@
+ {
+  "MagzineAds": [
+    {
+      "title": "Fashion Magazine Ad",
+      "description": "Modern fashion magazine advertisement design",
+      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500",
+      "link": "#",
+      "tags": ["Magazine", "Fashion", "Print"]
+    },
+    {
+      "title": "Food Magazine Spread",
+      "description": "Culinary magazine double-page spread design",
+      "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=500",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    }
+  ],
+  "ProductPackgagings": [
+    {
+      "title": "Eco-Friendly Package",
+      "description": "Sustainable product packaging design",
+      "image": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?w=500",
+      "link": "#",
+      "tags": ["Packaging", "Eco", "Retail"]
+    },
+    {
+      "title": "Premium Box Design",
+      "description": "Luxury product packaging solution",
+      "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=500",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    }
+  ],
+  "SocialMediaPost": [
+    {
+      "title": "Instagram Campaign",
+      "description": "Social media marketing campaign designs",
+      "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500",
+      "link": "#",
+      "tags": ["Social", "Digital", "Marketing"]
+    },
+    {
+      "title": "Social Media Kit",
+      "description": "Complete social media branding package",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=500",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    }
+  ],
+  "Flyer": [
+    {
+      "title": "Event Flyer",
+      "description": "Music event promotional flyer",
+      "image": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=500",
+      "link": "#",
+      "tags": ["Print", "Event", "Promotion"]
+    },
+    {
+      "title": "Business Flyer",
+      "description": "Corporate business flyer design",
+      "image": "https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?w=500",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    }
+  ],
+  "Logos": [
+    {
+      "title": "Minimalist Logo",
+      "description": "Clean and modern logo design",
+      "image": "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?w=500",
+      "link": "#",
+      "tags": ["Logo", "Minimal", "Branding"]
+    },
+    {
+      "title": "Brand Identity",
+      "description": "Complete brand identity system",
+      "image": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=500",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    }
+  ],
+  "TShirts": [
+    {
+      "title": "Urban T-Shirt",
+      "description": "Street style t-shirt design",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+      "link": "#",
+      "tags": ["Fashion", "Apparel", "Urban"]
+    },
+    {
+      "title": "Custom Merch",
+      "description": "Custom merchandise design collection",
+      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=500",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    }
+  ],
+  "eBook": [
+    {
+      "title": "Digital Magazine",
+      "description": "Interactive digital magazine design",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+      "link": "#",
+      "tags": ["Digital", "Editorial", "Interactive"]
+    },
+    {
+      "title": "eBook Layout",
+      "description": "Professional eBook layout design",
+      "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=500",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    }
+  ],
+  "Products": [
+    {
+      "title": "Product Photography",
+      "description": "Professional product photography",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "link": "#",
+      "tags": ["Product", "Photography", "Commercial"]
+    },
+    {
+      "title": "3D Product Renders",
+      "description": "3D product visualization",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    }
+  ],
+  "Thumbnails": [
+    {
+      "title": "YouTube Thumbnails",
+      "description": "Eye-catching video thumbnails",
+      "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=500",
+      "link": "#",
+      "tags": ["Digital", "Video", "Social"]
+    },
+    {
+      "title": "Blog Thumbnails",
+      "description": "Blog post featured images",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    }
+  ],
+  "Illustrations": [
+    {
+      "title": "Digital Art",
+      "description": "Custom digital illustrations",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500",
+      "link": "#",
+      "tags": ["Art", "Digital", "Illustration"]
+    },
+    {
+      "title": "Character Design",
+      "description": "Original character illustrations",
+      "image": "https://images.unsplash.com/photo-1569701813229-33284b643e3c?w=500",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    }
+  ]
+}
