@@ -12,6 +12,8 @@ const options = {
 }
 
 export default function SmoothScroll({ children }: { children: React.ReactNode }) {
+  let a = 34;
+  console.log(a)
   return (
     <ReactLenis root options={options}>
       {children}
