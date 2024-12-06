@@ -2,7 +2,7 @@
 import * as THREE from "three";
 import { Suspense, useRef, useEffect } from "react";
 import { ContactShadows, Environment, OrbitControls, useGLTF } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+import { Canvas,useFrame  } from "@react-three/fiber";
 import { useControls } from "leva";
 import {gsap} from 'gsap';
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -24,7 +24,7 @@ export default function Scene() {
         <OrbitControls />
         <Suspense fallback={null}>
           <ContactShadows position={[0, -3.5, 0]} opacity={0.25} scale={40} blur={1} far={4} />
-          <Environment preset="studio" />
+          {/* <Environment preset="studio" /> */}
         </Suspense>
       </Canvas>
     </div>
@@ -37,11 +37,23 @@ const Geometry = () => {
   const {scene:handScene }:any = useGLTF("/model/hand.glb") 
   const handRef = useRef<THREE.Mesh>(null);
 
+  const { amplitude, speed } = useControls("Floating Animation", {
+    amplitude: { value: 0.2, min: 0, max: 1, step: 0.01 }, // Max up-down distance
+    speed: { value: 2, min: 0.1, max: 10, step: 0.1 }, // Speed of movement
+  });
+
+  useFrame((state) => {
+    const elapsed = state.clock.getElapsedTime(); // Time elapsed since render start
+    if (handRef.current) {
+      handRef.current.position.y = Math.sin(elapsed * speed) * amplitude; // Up-down animation
+    }
+  })
+
   useEffect(() => {
     if (handRef.current) {
       // Create infinite floating animation
       gsap.to(handRef.current.position, {
-        y: 0,
+        // y: 0,
         duration: 2,
         ease: "power1.inOut",
         yoyo: true,
@@ -94,7 +106,7 @@ const Geometry = () => {
         <meshPhysicalMaterial color="#64E9F8" />
       </mesh>
 
-      <mesh ref={handRef} position={[0, 0, 0]} scale={[3, 3, 3]} rotation={[1, 2, 0]}>
+      <mesh ref={handRef} position={[-3.5, -3, 0]} scale={[3, 3, 3]} rotation={[1, 3, 0]}>
         <primitive object={handScene}/>
       </mesh>
     </>
