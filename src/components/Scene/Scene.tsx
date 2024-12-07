@@ -44,7 +44,7 @@ export default function Scene() {
           <EffectComposer>
            
             <Pixelation
-              granularity={2} // pixel granularity
+              granularity={1} // pixel granularity
             />
           </EffectComposer>
         </Suspense>

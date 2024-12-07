@@ -1,7 +1,8 @@
 "use client";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-
+import axios from "axios";
+import toast from "react-hot-toast";
 const ContactPage = () => {
   // State to manage form input values
   const [formData, setFormData] = useState({
@@ -32,14 +33,11 @@ const ContactPage = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setStatus("Email sent successfully!");
+      const response  = await axios.post("/api/send-email", formData);
+      const data = await response.data
+      if (data.status === 200) {
+        toast.success(data.message)
+       
         setFormData({
           name: "",
           subject: "",
@@ -48,15 +46,15 @@ const ContactPage = () => {
           message: "",
         });
       } else {
-        setStatus("Failed to send email.");
+        toast.error(data.message);
       }
     } catch (error) {
       console.error(error);
-      setStatus("Error sending email.");
+      toast.error("Failed to send email.");
     }
   };
 
-  console.log(formData, "formData");
+
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center mt-28 px-4 relative">
@@ -71,9 +69,9 @@ const ContactPage = () => {
           how we can help bring your digital vision to life.
         </p>
       </div>
-      <div className="w-full h-full absolute -z-[999] left-0 md:-left-[28rem]  top-[0.5rem]">
+      {/* <div className="w-full h-full absolute -z-[999] left-0 md:-left-[28rem]  top-[0.5rem]">
         <iframe src="https://app.endlesstools.io/embed/a1ca7120-c627-43c7-b542-9c4a53d39f6b" className="w-full h-full"></iframe>
-      </div>
+      </div> */}
       <div className="w-full  flex flex-col lg:flex-row items-start justify-center gap-10 mt-12">
         <div className="w-full py-5 px-9 flex flex-col items-center justify-center gap-10 text-center mt-4 relative">
           <div className="w-[30%] h-[30%] bg-emerald-500 absolute rounded-full blur-[80px] animate-pulse"></div>
@@ -117,6 +115,7 @@ const ContactPage = () => {
                 placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
+                name="email"
               />
             </label>
             <label className="flex flex-col">
@@ -128,6 +127,7 @@ const ContactPage = () => {
                 placeholder="Enter your contact phone"
                 value={formData.phone}
                 onChange={handleChange}
+                name="phone"
               />
             </label>
             <label className="flex flex-col">
@@ -139,6 +139,7 @@ const ContactPage = () => {
                 placeholder="Enter the subject"
                 value={formData.subject}
                 onChange={handleChange}
+                name="subject"
               />
             </label>
             <label className="flex flex-col">
@@ -150,14 +151,17 @@ const ContactPage = () => {
                 rows={4}
                 value={formData.message}
                 onChange={handleTextAreaChange}
+                name="message"
               />
             </label>
             <button
               type="submit"
+              onClick={handleSubmit}
               className="mt-4 p-2 bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               Send Message
             </button>
+            {status}
           </form>
         </div>
       </div>

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import { metadata } from "./metadata";
 import CursorComponent from "@/components/CursorComponent";
-
+import {Toaster} from "react-hot-toast"
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -34,6 +34,7 @@ export default function RootLayout({
           <Footer />
           <div className="absolute inset-0 -z-50 max-h-screen bg-[radial-gradient(circle_at_top_center,hsla(222,80%,60%,0.655)_0%,hsla(222,0%,0%,0)_50%,hsla(222,0%,0%,0)_100%)]"></div>
         </SmoothScroll>
+        <Toaster/>
       </body>
     </html>
   );

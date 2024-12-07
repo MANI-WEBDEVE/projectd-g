@@ -106,17 +106,17 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 Services
               </p>
             </a>
-            <Link href="#" onClick={onClose}>
+            <Link href="portfolio" onClick={onClose}>
               <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Portfolio
               </p>
             </Link>
-            <Link href="#" onClick={onClose}>
+            <Link href="testimonial" onClick={onClose}>
               <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Testimonial
               </p>
             </Link>
-            <Link href="#" onClick={onClose}>
+            <Link href="contact" onClick={onClose}>
               <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
                 Contact Us
               </p>
