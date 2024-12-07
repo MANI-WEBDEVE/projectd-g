@@ -3,158 +3,788 @@
     {
       "title": "Fashion Magazine Ad",
       "description": "Modern fashion magazine advertisement design",
-      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/16-724x1024.jpg",
       "link": "#",
       "tags": ["Magazine", "Fashion", "Print"]
     },
     {
-      "title": "Food Magazine Spread",
-      "description": "Culinary magazine double-page spread design",
-      "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=500",
+      "title": "High Fashion Editorial Shoot",
+      "description": "Elegant fashion editorial featuring vertical composition and dramatic lighting",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/16-724x1024.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Fashion", "Print"]
+    },
+    {
+      "title": "Gourmet Food Photography",
+      "description": "Professional food photography showcasing culinary artistry",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/15.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Restaurant Menu Photography",
+      "description": "Landscape-oriented food presentation for restaurant menu",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/14-1024x768.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Vertical Food Editorial",
+      "description": "Portrait-style food photography with artistic plating",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/13-722x1024.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Culinary Arts Feature",
+      "description": "Sophisticated food styling and photography layout",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/12.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Food Magazine Portrait",
+      "description": "Vertical composition featuring elegant food presentation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/10-1-724x1024.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Gourmet Magazine Feature",
+      "description": "Vertical food photography with professional styling",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/09-2-722x1024.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Food Photography Layout",
+      "description": "Creative food arrangement and professional lighting",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-3.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Culinary Photography",
+      "description": "Artistic food presentation with professional styling",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-4.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Food Editorial Design",
+      "description": "Magazine-style food photography with modern aesthetic",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-4.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Restaurant Editorial",
+      "description": "Professional food photography for editorial content",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-4.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Food", "Editorial"]
+    },
+    {
+      "title": "Vertical Food Feature",
+      "description": "Portrait-oriented culinary photography with artistic composition",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-3-724x1024.jpg",
       "link": "#",
       "tags": ["Magazine", "Food", "Editorial"]
     }
   ],
   "ProductPackgagings": [
     {
-      "title": "Eco-Friendly Package",
-      "description": "Sustainable product packaging design",
-      "image": "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?w=500",
+      "title": "Vertical Eco-Packaging Design",
+      "description": "Sustainable product packaging with portrait orientation and modern aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/22-970x1024.jpg",
       "link": "#",
       "tags": ["Packaging", "Eco", "Retail"]
     },
     {
-      "title": "Premium Box Design",
-      "description": "Luxury product packaging solution",
-      "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=500",
+      "title": "Square Luxury Box Design",
+      "description": "Premium packaging design with balanced square composition",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/21-1024x970.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Wide Format Package Design",
+      "description": "Elegant packaging solution with panoramic presentation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/20-1024x653.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Minimalist Package Layout",
+      "description": "Clean and contemporary packaging design with wide format display",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-5-1024x574.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Premium Product Showcase",
+      "description": "Sophisticated packaging design with landscape orientation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/19-1024x670.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Luxury Brand Packaging",
+      "description": "High-end product packaging with artistic composition",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/17-1024x796.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Vertical Premium Design",
+      "description": "Elegant portrait-oriented luxury packaging solution",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/16-1-919x1024.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Classic Package Design",
+      "description": "Timeless luxury packaging with balanced proportions",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/15-1.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Widescreen Package Display",
+      "description": "Contemporary packaging design with cinematic proportions",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/14-1-1024x633.jpg",
+      "link": "#",
+      "tags": ["Packaging", "Luxury", "Branding"]
+    },
+    {
+      "title": "Panoramic Box Design",
+      "description": "Ultra-wide luxury packaging presentation with minimal aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/13-1-1024x366.jpg",
       "link": "#",
       "tags": ["Packaging", "Luxury", "Branding"]
     }
   ],
   "SocialMediaPost": [
     {
-      "title": "Instagram Campaign",
-      "description": "Social media marketing campaign designs",
-      "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500",
+      "title": "Instagram Story Collection",
+      "description": "Dynamic social media campaign with engaging story layouts",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-7.jpg",
       "link": "#",
       "tags": ["Social", "Digital", "Marketing"]
     },
     {
-      "title": "Social Media Kit",
-      "description": "Complete social media branding package",
-      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=500",
+      "title": "Social Brand Identity",
+      "description": "Modern social media visual identity system",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-6.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Content Strategy",
+      "description": "Cohesive content design for multi-platform social presence",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-7.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Grid Design",
+      "description": "Instagram-optimized grid layout and visual strategy",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-7.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Media Templates",
+      "description": "Custom template designs for consistent brand messaging",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-7.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Platform-Specific Design",
+      "description": "Tailored visual content for different social platforms",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-7.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Campaign Assets",
+      "description": "Comprehensive campaign visuals for social media marketing",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-7.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Brand Story Package",
+      "description": "Visual storytelling elements for social media presence",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-6.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Feed Design",
+      "description": "Curated feed aesthetics for brand consistency",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/09-5.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Digital Brand Package",
+      "description": "Complete digital branding system for social platforms",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/10-4.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Marketing Suite",
+      "description": "Comprehensive marketing assets for social campaigns",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/11-3.jpg",
+      "link": "#",
+      "tags": ["Social", "Branding", "Kit"]
+    },
+    {
+      "title": "Social Media Strategy",
+      "description": "Strategic visual content package for brand growth",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/12-2.jpg",
       "link": "#",
       "tags": ["Social", "Branding", "Kit"]
     }
   ],
   "Flyer": [
     {
-      "title": "Event Flyer",
-      "description": "Music event promotional flyer",
-      "image": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=500",
+      "title": "Concert Promotion Flyer",
+      "description": "Dynamic music event flyer with modern typography and visuals",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-1.jpg",
       "link": "#",
       "tags": ["Print", "Event", "Promotion"]
     },
     {
-      "title": "Business Flyer",
-      "description": "Corporate business flyer design",
-      "image": "https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?w=500",
+      "title": "Corporate Identity Flyer",
+      "description": "Professional business branding with clean design elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02.jpg",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    },
+    {
+      "title": "Vertical Business Brochure",
+      "description": "Portrait-oriented corporate communication design",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-1-724x1024.jpg",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    },
+    {
+      "title": "Modern Business Layout",
+      "description": "Contemporary corporate flyer with innovative design approach",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-1.jpg",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    },
+    {
+      "title": "Professional Portrait Flyer",
+      "description": "Vertical format business promotion with elegant styling",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-1-693x1024.jpg",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    },
+    {
+      "title": "Corporate Marketing Collateral",
+      "description": "Strategic business communication design with premium finish",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-1.jpg",
+      "link": "#",
+      "tags": ["Print", "Business", "Corporate"]
+    },
+    {
+      "title": "Business Showcase Design",
+      "description": "Professional corporate presentation with impactful visuals",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-1.jpg",
       "link": "#",
       "tags": ["Print", "Business", "Corporate"]
     }
   ],
   "Logos": [
     {
-      "title": "Minimalist Logo",
-      "description": "Clean and modern logo design",
-      "image": "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?w=500",
+      "title": "Modern Minimalist Branding",
+      "description": "Sophisticated minimal logo design with contemporary aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-3.jpg",
       "link": "#",
       "tags": ["Logo", "Minimal", "Branding"]
     },
     {
-      "title": "Brand Identity",
-      "description": "Complete brand identity system",
-      "image": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=500",
+      "title": "Premium Brand System",
+      "description": "Luxury brand identity with comprehensive design guidelines",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-2.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Corporate Identity Design",
+      "description": "Professional corporate branding with versatile applications",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Strategic Brand Identity",
+      "description": "Strategic visual identity system for market positioning",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Elegant Brand Evolution",
+      "description": "Refined brand identity with timeless design elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Dynamic Logo System",
+      "description": "Adaptive brand identity for multi-platform presence",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Innovative Brand Design",
+      "description": "Forward-thinking brand identity with creative approach",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Contemporary Logo Design",
+      "description": "Modern brand identity with distinctive visual language",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-2.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Architecture",
+      "description": "Comprehensive brand system with strategic hierarchy",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/09-1.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Signature Brand Identity",
+      "description": "Distinctive visual branding with lasting impact",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n1.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Expression System",
+      "description": "Expressive brand identity with cohesive design elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n2.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Premium Brand Experience",
+      "description": "Luxury brand identity with immersive design system",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n3.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Visual Identity Innovation",
+      "description": "Innovative brand design with contemporary aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n4.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Transformation",
+      "description": "Strategic brand evolution with modern approach",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n5.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Iconic Brand Design",
+      "description": "Memorable brand identity with iconic elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n6.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Identity Suite",
+      "description": "Complete brand system with versatile applications",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n7.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Creative Brand Solution",
+      "description": "Innovative brand identity with creative direction",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n8.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Design Excellence",
+      "description": "Premium brand identity with exceptional craftsmanship",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n17.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Strategic Visual Identity",
+      "description": "Strategic brand system with market-focused design",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n10.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Identity Mastery",
+      "description": "Masterful brand design with professional execution",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n11.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Distinctive Brand Language",
+      "description": "Unique visual identity with powerful brand messaging",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n12.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Design Innovation",
+      "description": "Innovative brand identity with cutting-edge approach",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n13.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Premium Brand Strategy",
+      "description": "Strategic brand identity with premium positioning",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n14.jpg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Brand Identity Excellence",
+      "description": "Superior brand design with meticulous attention to detail",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n15.jpeg",
+      "link": "#",
+      "tags": ["Logo", "Identity", "Brand"]
+    },
+    {
+      "title": "Comprehensive Brand Design",
+      "description": "Complete brand identity system with strategic implementation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/n16.jpg",
       "link": "#",
       "tags": ["Logo", "Identity", "Brand"]
     }
   ],
   "TShirts": [
     {
-      "title": "Urban T-Shirt",
-      "description": "Street style t-shirt design",
-      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+      "title": "Urban Streetwear Collection",
+      "description": "Contemporary urban fashion design with trendy street style aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-8.jpg",
       "link": "#",
       "tags": ["Fashion", "Apparel", "Urban"]
     },
     {
-      "title": "Custom Merch",
-      "description": "Custom merchandise design collection",
-      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=500",
+      "title": "Lifestyle Apparel Design",
+      "description": "Modern lifestyle merchandise with custom graphic design elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-7.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Streetwear Brand Collection",
+      "description": "Premium streetwear designs with unique artistic expression",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-8.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Fashion Forward Merch",
+      "description": "Trendsetting merchandise design with contemporary appeal",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-8.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Urban Fashion Series",
+      "description": "Creative urban wear with distinctive graphic elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-8.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Designer Streetwear Line",
+      "description": "Exclusive streetwear collection with artistic design focus",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-8.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Contemporary Fashion Design",
+      "description": "Modern apparel collection with innovative graphic concepts",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-8.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Premium Merch Collection",
+      "description": "High-quality merchandise with sophisticated design elements",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-7.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Artistic Apparel Series",
+      "description": "Creative clothing designs with unique artistic vision",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/09-6.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Fashion Design Portfolio",
+      "description": "Curated collection of contemporary fashion designs",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/11-4.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Custom Fashion Line",
+      "description": "Bespoke clothing designs with personalized aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/15-2.jpg",
+      "link": "#",
+      "tags": ["Fashion", "Merch", "Custom"]
+    },
+    {
+      "title": "Modern Apparel Design",
+      "description": "Contemporary fashion with innovative design approach",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/14-2.jpg",
       "link": "#",
       "tags": ["Fashion", "Merch", "Custom"]
     }
   ],
   "eBook": [
     {
-      "title": "Digital Magazine",
-      "description": "Interactive digital magazine design",
-      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+      "title": "Interactive Digital Publication",
+      "description": "Engaging digital magazine with responsive design and modern layout",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-640x1024.jpg",
       "link": "#",
       "tags": ["Digital", "Editorial", "Interactive"]
     },
     {
-      "title": "eBook Layout",
-      "description": "Professional eBook layout design",
-      "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=500",
+      "title": "Professional eBook Design",
+      "description": "Sophisticated digital publication with elegant typography and layout",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2015/10/02-683x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Digital Content Design",
+      "description": "Creative digital book layout with immersive reading experience",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-683x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Modern eBook Layout",
+      "description": "Contemporary digital publication with dynamic content flow",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-640x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Digital Reading Experience",
+      "description": "User-focused eBook design with enhanced readability",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-640x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Interactive Content Design",
+      "description": "Engaging digital publication with multimedia integration",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-640x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Digital Publication Suite",
+      "description": "Comprehensive eBook design with professional formatting",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-640x1024.jpg",
+      "link": "#",
+      "tags": ["Digital", "Book", "Layout"]
+    },
+    {
+      "title": "Premium eBook Template",
+      "description": "High-end digital book design with customizable layouts",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-683x1024.jpg",
       "link": "#",
       "tags": ["Digital", "Book", "Layout"]
     }
   ],
   "Products": [
     {
-      "title": "Product Photography",
-      "description": "Professional product photography",
-      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "title": "Professional Product Photography",
+      "description": "High-end commercial photography with expert lighting and composition",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-6.jpg",
       "link": "#",
       "tags": ["Product", "Photography", "Commercial"]
     },
     {
-      "title": "3D Product Renders",
-      "description": "3D product visualization",
-      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "title": "Photorealistic 3D Rendering",
+      "description": "Stunning 3D product visualization with lifelike details",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-5.jpg",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    },
+    {
+      "title": "Advanced 3D Product Design",
+      "description": "Sophisticated 3D modeling with professional rendering techniques",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-6.jpg",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    },
+    {
+      "title": "Commercial 3D Visualization",
+      "description": "Premium product rendering for commercial applications",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-6.jpg",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    },
+    {
+      "title": "Product Design Visualization",
+      "description": "Detailed 3D product presentation with realistic materials",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-6.jpg",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    },
+    {
+      "title": "3D Product Marketing",
+      "description": "Professional 3D visualization for marketing campaigns",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-6.jpg",
+      "link": "#",
+      "tags": ["Product", "3D", "Rendering"]
+    },
+    {
+      "title": "Creative Product Rendering",
+      "description": "Artistic 3D visualization with innovative presentation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/10-3.jpg",
       "link": "#",
       "tags": ["Product", "3D", "Rendering"]
     }
   ],
   "Thumbnails": [
     {
-      "title": "YouTube Thumbnails",
-      "description": "Eye-catching video thumbnails",
-      "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=500",
+      "title": "Viral YouTube Thumbnails",
+      "description": "Attention-grabbing video thumbnails optimized for engagement",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/01-9.jpg",
       "link": "#",
       "tags": ["Digital", "Video", "Social"]
     },
     {
-      "title": "Blog Thumbnails",
-      "description": "Blog post featured images",
-      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500",
+      "title": "Professional Blog Graphics",
+      "description": "Compelling featured images designed for maximum reader impact",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-8.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Content Marketing Visuals",
+      "description": "Strategic blog thumbnails for enhanced content visibility",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-9.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Digital Content Design",
+      "description": "Eye-catching blog visuals for increased engagement",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-9.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Blog Visual Strategy",
+      "description": "Strategic thumbnail design for content optimization",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-9.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Content Creator Package",
+      "description": "Professional thumbnail designs for content creators",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-8.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Digital Media Graphics",
+      "description": "Engaging thumbnail designs for online content success",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/06-9.jpg",
+      "link": "#",
+      "tags": ["Digital", "Blog", "Web"]
+    },
+    {
+      "title": "Social Media Thumbnails",
+      "description": "Optimized visual content for social media platforms",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-9.jpg",
       "link": "#",
       "tags": ["Digital", "Blog", "Web"]
     }
   ],
   "Illustrations": [
     {
-      "title": "Digital Art",
-      "description": "Custom digital illustrations",
-      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500",
+      "title": "Contemporary Digital Artwork",
+      "description": "Modern digital art with innovative artistic expression",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/10.jpg",
       "link": "#",
       "tags": ["Art", "Digital", "Illustration"]
     },
     {
-      "title": "Character Design",
-      "description": "Original character illustrations",
-      "image": "https://images.unsplash.com/photo-1569701813229-33284b643e3c?w=500",
+      "title": "Creative Character Art",
+      "description": "Unique character design with distinctive personality",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/09.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Character Concept Design",
+      "description": "Professional character development with artistic detail",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/08-1.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Artistic Character Creation",
+      "description": "Original character illustrations with creative storytelling",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/07-2.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Character Design Portfolio",
+      "description": "Diverse character designs with unique visual style",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/05-2.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Illustrated Character Series",
+      "description": "Dynamic character illustrations with compelling design",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/04-2.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Character Art Collection",
+      "description": "Expressive character designs with artistic innovation",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/03-2.jpg",
+      "link": "#",
+      "tags": ["Art", "Character", "Design"]
+    },
+    {
+      "title": "Digital Character Design",
+      "description": "Professional character artwork with modern aesthetics",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/02-1.jpg",
       "link": "#",
       "tags": ["Art", "Character", "Design"]
     }
