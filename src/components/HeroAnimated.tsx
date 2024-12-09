@@ -24,7 +24,7 @@ export function TimelineDemo() {
               key challenges. The information gathered here lays the groundwork
               for a strategic and customized approach to the project.
             </h2>
-            <Image src={'https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=600'} width={280} height={300} className="w-full h-full object-cover" alt="dicussion"/>
+            <Image src={'https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=600'} width={280} height={300} className="w-full h-full object-cover rounded-md" alt="dicussion"/>
           </div>
         </div>
       ),
