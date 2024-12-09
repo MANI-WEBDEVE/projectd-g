@@ -41,12 +41,12 @@ export default function Scene() {
             far={4}
           />
           <Environment preset="city" />
-          <EffectComposer>
+          {/* <EffectComposer>
            
             <Pixelation
               granularity={1} // pixel granularity
             />
-          </EffectComposer>
+          </EffectComposer> */}
         </Suspense>
       </Canvas>
     </div>
@@ -141,7 +141,8 @@ const Geometry = () => {
         x: scale.camera,
         y: scale.camera,
         z: scale.camera,
-        duration: 1.2,
+        duration: 2.2,
+        delay: 3,
         ease: 'elastic.out(2, 0.8)'
       });
 
@@ -150,8 +151,8 @@ const Geometry = () => {
         x: scale.ink,
         y: scale.ink,
         z: scale.ink,
-        duration: 1.2,
-        delay: 0.2,
+        duration: 3.2,
+        delay:4,
         ease: 'elastic.out(2, 0.8)'
       });
 
@@ -160,8 +161,8 @@ const Geometry = () => {
         x: scale.hand,
         y: scale.hand,
         z: scale.hand,
-        duration: 1.2,
-        delay: 0.4,
+        duration: 2.2,
+        delay: 5,
         ease: 'elastic.out(2, 0.8)'
       });
 

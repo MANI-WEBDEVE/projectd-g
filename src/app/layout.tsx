@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="w-full">
       <body className="bg-neutral-950 text-white min-h-screen">
         <SmoothScroll>
           {/* <CursorComponent/> */}
