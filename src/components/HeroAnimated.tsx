@@ -9,7 +9,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-400 dark:text-neutral-200 text-xs md:text-base font-normal mb-8"></p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
             <h2 className=" text-xl font-bold  border-[1px] border-slate-600/15 px-5 py-2 rounded-md flex items-center justify-center">
               Discovery, Research & Initial Consultation
             </h2>
@@ -19,7 +19,7 @@ export function TimelineDemo() {
               Through detailed discussions and research, we explore the client’s
               industry, competitors, and unique needs.
             </h2>
-            <h2 className=" text-sm font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
+            <h2 className="flex items-center justify-center text-lg font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
               This process allows us to uncover valuable insights and pinpoint
               key challenges. The information gathered here lays the groundwork
               for a strategic and customized approach to the project.
@@ -34,7 +34,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-400 dark:text-neutral-200 text-xs md:text-base font-normal mb-8"></p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
             <h2 className=" text-xl font-bold  border-[1px] border-slate-600/15 px-5 py-2 rounded-md flex items-center justify-center">
               Creative Concept & Strategic Ideation
             </h2>
@@ -44,12 +44,13 @@ export function TimelineDemo() {
               brainstorms unique ideas, blending creativity with strategic
               planning to develop solutions that stand out.
             </h2>
-            <h2 className=" text-sm font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
+            <h2 className="flex items-center justify-center text-lg font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
               We craft initial concepts and visual mockups that capture the
               project’s direction and desired impact. This step ensures that our
               approach resonates with the target audience and meets business
               objectives.
             </h2>
+            <Image src={'https://images.pexels.com/photos/3747279/pexels-photo-3747279.jpeg'} width={280} height={300} className="w-full h-full object-cover rounded-md" alt="dicussion"/>
           </div>
         </div>
       ),
@@ -59,7 +60,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-400 dark:text-neutral-200 text-xs md:text-base font-normal mb-8"></p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
             <h2 className=" text-xl font-bold  border-[1px] border-slate-600/15 px-5 py-2 rounded-md flex items-center justify-center">
               Production, Design & Development Execution
             </h2>
@@ -69,11 +70,12 @@ export function TimelineDemo() {
               visually engaging assets, while developers build the digital
               infrastructure, ensuring a cohesive and functional experience.
             </h2>
-            <h2 className=" text-sm font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
+            <h2 className="flex items-center justify-center text-lg  font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
               This step involves close collaboration to ensure that each element
               aligns with the project’s vision. Quality control is embedded
               throughout, ensuring a seamless and polished final product.
             </h2>
+            <Image src={'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600'} width={280} height={300} className="w-full h-full object-cover rounded-md" alt="dicussion"/>
           </div>
         </div>
       ),
@@ -83,7 +85,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-400 dark:text-neutral-200 text-xs md:text-base font-normal mb-8"></p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
             <h2 className=" text-xl font-bold  border-[1px] border-slate-600/15 px-5 py-2 rounded-md flex items-center justify-center">
               Client Satisfaction & Project Completion
             </h2>
@@ -93,12 +95,14 @@ export function TimelineDemo() {
               make any necessary adjustments, and provide guidance for smooth
               implementation.
             </h2>
-            <h2 className=" text-sm font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
+            <h2 className="flex items-center justify-center text-lg  font-light px-5 py-2 rounded-md border-[1px] border-slate-600/15">
               Our priority is to deliver a product that not only satisfies but
               delights the client, building a foundation for long-term success.
               A successful handover ensures that the client is fully equipped
               and confident moving forward.
             </h2>
+            <Image src={'  https://images.pexels.com/photos/8293768/pexels-photo-8293768.jpeg?auto=compress&cs=tinysrgb&w=600'} width={280} height={300} className="w-full h-full object-cover rounded-md" alt="dicussion"/>
+          
           </div>
         </div>
       ),

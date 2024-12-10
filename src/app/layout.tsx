@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import { metadata } from "./metadata";
 import CursorComponent from "@/components/CursorComponent";
 import {Toaster} from "react-hot-toast"
+import { Spotlight } from "@/components/ui/Spotlight";
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -25,16 +26,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="w-full">
+    <html lang="en" className="w-full bg-neutral-950">
       <body className="bg-neutral-950 text-white min-h-screen">
         <SmoothScroll>
           {/* <CursorComponent/> */}
           <Header />
+          <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20 "
+        fill="white"
+      />
           {children}
           <Footer />
-          <div className="absolute inset-0 -z-50 max-h-screen bg-[radial-gradient(circle_at_top_center,hsla(222,80%,60%,0.655)_0%,hsla(222,0%,0%,0)_50%,hsla(222,0%,0%,0)_100%)]"></div>
         </SmoothScroll>
-        <Toaster/>
+        <Toaster />
       </body>
     </html>
   );

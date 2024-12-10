@@ -3,7 +3,8 @@ import React from "react";
 import { TabsBtn, TabsProvider, TabsContent } from "@/components/tabs";
 const PortfolioPage = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center ">
+      
       <h1 className="text-4xl font-bold tracking-tight leading-3 mt-40">
         PORTFOLIO
       </h1>
