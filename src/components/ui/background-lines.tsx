@@ -83,6 +83,18 @@ const SVG = ({
     "#59BBEB",
     "#504F1C",
     "#55BC54",
+    "#59BBEB",
+    "#504F1C",
+    "#55BC54",
+    "#59BBEB",
+    "#504F1C",
+    "#55BC54",
+    "#59BBEB",
+    "#504F1C",
+    "#55BC54",
+    "#59BBEB",
+    "#504F1C",
+    "#55BC54",
     "#4D3568",
     "#9F39A5",
     "#363636",
@@ -97,7 +109,7 @@ const SVG = ({
       xmlns="http://www.w3.org/2000/svg"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0.4 }}
       className="absolute inset-0 w-full h-full"
     >
       {paths.map((path, idx) => (

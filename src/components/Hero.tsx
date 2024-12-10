@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 import { useEffect, useRef } from "react";
-import Scene from "./Scene/Scene";
+// import Scene from "./Scene/Scene";
 
 const Hero = () => {
   const component = useRef<HTMLDivElement>(null);
