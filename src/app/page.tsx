@@ -2,11 +2,6 @@ import Hero from "@/components/Hero";
 import InfiniteLogo from "@/components/InfiniteLogo";
 import Services from "@/components/ServicesSection";
 import "./globals.css"
-import Scene from "@/components/Scene/Scene";
-import {CircularProgress} from "@nextui-org/progress";
-import { Card, CardFooter } from "@/components/ui/card";
-import { CardBody } from "@/components/ui/3d-card";
-import { Chip } from "@nextui-org/chip";
 import PrograssBar from "@/components/PrograssBar";
 // import HeroAnimated from "@/components/HeroAnimated";
 export default function Home() {

@@ -1,5 +1,7 @@
 {
   "root": true,
   "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }

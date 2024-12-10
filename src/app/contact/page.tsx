@@ -14,7 +14,7 @@ const ContactPage = () => {
   });
 
   // State to manage submission status
-  const [status, setStatus] = useState("");
+  const [status] = useState("");
 
   // Handle change for input fields
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

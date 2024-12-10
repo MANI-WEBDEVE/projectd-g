@@ -7,7 +7,13 @@ declare module 'resend' {
                 to: string;
                 subject: string;
                 html: string;
-            }) => Promise<any>;
+            }) => Promise<EmailResponse>;
         };
+    }
+
+    interface EmailResponse {
+        success: boolean;
+        messageId: string;
+        // Add other relevant fields based on the actual response structure
     }
 }

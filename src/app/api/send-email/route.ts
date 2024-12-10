@@ -1,4 +1,3 @@
-import {  NextApiResponse } from 'next';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
@@ -12,7 +11,7 @@ interface FormData {
 
 const resend = new Resend(process.env.RESEND_API_KEY!);
 
-export async function POST(req: Request, res: NextApiResponse) {
+export async function POST(req: Request) {
     const { name, email, subject, phone, message }: FormData = await req.json();
    
     try {

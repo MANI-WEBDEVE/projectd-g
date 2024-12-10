@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import { metadata } from "./metadata";
-import CursorComponent from "@/components/CursorComponent";
 import {Toaster} from "react-hot-toast"
 import { Spotlight } from "@/components/ui/Spotlight";
 // const geistSans = localFont({
