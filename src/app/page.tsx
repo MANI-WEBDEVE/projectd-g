@@ -12,10 +12,10 @@ export default function Home() {
       <Hero />
       <InfiniteLogo />
       <Services />
-      <div className="w-full flex items-center justify-center  text-4xl font-bold mt-10 mb-10 uppercase">
+      <div className="w-full h-1/2 flex items-center justify-center  text-4xl font-bold mt-32 md:mt-10  uppercase">
         <h2>Our Skills</h2>
       </div>
-      <section className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center px-10 place-content-center gap-4  mt-10">
+      <section className="w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center px-10 place-content-center gap-4  mt-20 md:mt-10">
       <PrograssBar valuePer={89.7} point={"Logo Creation"}/>
       <PrograssBar valuePer={85.6} point={"Graphic Design"}/>
       <PrograssBar valuePer={81.5} point={"Video Editing & Animation"}/>

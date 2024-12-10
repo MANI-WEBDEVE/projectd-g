@@ -61,20 +61,28 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
       {/* Side Navigation */}
       <div
         ref={sideNavRef}
-        className={`fixed left-0 top-0 z-[202] h-screen w-[80%] transform bg-[#1F1F1F] shadow-lg translate-x-[-100%]`}
+        className={`fixed left-0 top-0 z-[202] h-screen w-[80%] translate-x-[-100%] transform bg-[#1F1F1F] shadow-lg`}
       >
         <div className="px-10">
-          <div className="flex justify-between items-center pt-4">
-            <Image src="/image/logo.png" height={110} width={110} alt="logo" />
+          <div className="flex items-center justify-between pt-4">
+            <Link href={"/"}>
+              <Image
+                src="/image/logo.png"
+                height={110}
+                width={110}
+                alt="logo"
+                onClick={onClose}
+              />
+            </Link>
             <button
               onClick={onClose}
-              className="text-white/70 hover:text-white transition-colors"
+              className="text-white/70 transition-colors hover:text-white"
             >
               <X className="h-8 w-8 hover:animate-ping" />
             </button>
           </div>
 
-          <div className="mt-10 space-y-2 flex flex-col justify-center gap-6">
+          <div className="mt-10 flex flex-col justify-center gap-6 space-y-2">
             <a
               href="/"
               onClick={(e) => {
@@ -83,12 +91,12 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 onClose();
               }}
             >
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Home
               </p>
             </a>
             <Link href="/aboutus" onClick={onClose}>
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 About Us
               </p>
             </Link>
@@ -102,22 +110,22 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 onClose();
               }}
             >
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Services
               </p>
             </a>
             <Link href="portfolio" onClick={onClose}>
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Portfolio
               </p>
             </Link>
             <Link href="testimonial" onClick={onClose}>
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
-                Testimonial
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+                Work Process
               </p>
             </Link>
             <Link href="contact" onClick={onClose}>
-              <p className="text-[#76c9b8] text-lg transition-all duration-300 cursor-pointer hover:text-white/80 hover:text-md">
+              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Contact Us
               </p>
             </Link>

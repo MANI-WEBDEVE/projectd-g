@@ -73,8 +73,8 @@ const ContactPage = () => {
         <iframe src="https://app.endlesstools.io/embed/a1ca7120-c627-43c7-b542-9c4a53d39f6b" className="w-full h-full"></iframe>
       </div> */}
       <div className="w-full  flex flex-col lg:flex-row items-start justify-center gap-10 mt-12">
-        <div className="w-full py-5 px-9 flex flex-col items-center justify-center gap-10 text-center mt-4 relative">
-          <div className="w-[30%] h-[30%] bg-emerald-500 absolute rounded-full blur-[80px] animate-pulse"></div>
+        <div className="w-full py-5 px-2 flex flex-col items-center justify-center gap-10 text-center mt-4 relative">
+          <div className="w-[30%] h-[30%] bg-emerald-500 absolute rounded-full blur-[180px] animate-pulse"></div>
           <div>
             <h2 className="font-bold text-lg mb-5">ADDRESS</h2>
             <span>7901 4th ST N Site 11869. ST Petersnurg, FL 33702-4305</span>
@@ -89,7 +89,7 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="w-full flex items-center justify-center ">
-        <form className="flex flex-col gap-4  p-5 bg-gray-800 text-white rounded-md w-[66%]  lg:mx-0">
+        <form className="flex flex-col gap-4  p-5 bg-gray-800 text-white rounded-md w-[100%] md:w-[66%]  lg:mx-0">
             <label className="flex flex-col">
               <span className="mb-1">Your Name</span>
               <Input
