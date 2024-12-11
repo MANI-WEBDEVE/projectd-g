@@ -92,10 +92,7 @@ const Hero = () => {
   return (
     <div>
       <BackgroundLines className="flex items-center justify-center mt-[6rem] w-full flex-col px-4 md:mt-[24rem] min-[769px]:mt-16 relative">
-        {/* <div className=" w-full h-full  absolute ">
-        <iframe className="w-full h-full" src="https://app.endlesstools.io/embed/e3b727da-353c-4d46-be8e-a7d0b8a11e93
-        " ></iframe>
-        </div> */}
+       
         <Scene/>
         <h2 ref={component} className="bg-clip-text text-transparent text-center bg-gradient-to-bl from-[#49ceb3] to-[#db6b7a] dark:to-white text-4xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative font-bold tracking-tight opacity-0 dpname">
             Transform Your Vision <br /> Into Digital Art

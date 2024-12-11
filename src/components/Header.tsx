@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="container mx-auto">
       {/* Desktop navigation */}
-      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-10 z-[100] backdrop-blur-lg">
+      <nav className="fixed top-0 left-0 right-0 flex justify-between items-center py-2 px-5 ms:px-10 z-[100] backdrop-blur-lg">
         <div>
           <Link href={"/"}>
             <Image

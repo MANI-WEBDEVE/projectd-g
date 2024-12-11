@@ -10,8 +10,8 @@ const Services = () => {
       id="services"
       className="h-full md:h-full w-full text-white flex flex-col items-center mt-10 justify-center md:justify-between px-10"
     >
-      <div className="mt-14 text-4xl font-bold upperacse">
-        Our Services
+      <div className="mt-14 text-4xl font-bold uppercase">
+        Our <span className="text-blue-500 font-thin">Services</span>
       </div>
      
       <Tabs defaultValue={servicesData[0].value} className="w-full h-[600px] py-5 grid grid-cols-1 md:grid-cols-2 gap-2 items-center justify-center">

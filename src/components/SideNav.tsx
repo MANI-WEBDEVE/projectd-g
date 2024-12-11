@@ -27,8 +27,8 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
       // Animate sidenav
       gsap.to(sideNavRef.current, {
         x: 0,
-        duration: 0.5,
-        ease: "power3.out",
+        duration: 1,
+        ease: "elastic.inOut(1, 0.6)",
       });
     } else {
       // Animate overlay out
@@ -41,8 +41,8 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
       // Animate sidenav out
       gsap.to(sideNavRef.current, {
         x: "-100%",
-        duration: 0.5,
-        ease: "power3.in",
+        duration: 1,
+        ease: "elastic.inOut(1, 0.6)",
       });
     }
   }, [isOpen]);
@@ -61,7 +61,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
       {/* Side Navigation */}
       <div
         ref={sideNavRef}
-        className={`fixed left-0 top-0 z-[202] h-screen w-[80%] translate-x-[-100%] transform bg-[#1F1F1F] shadow-lg`}
+        className={`fixed left-0 top-0 z-[202] h-screen w-[100%] translate-x-[-100%] transform bg-[#000000] shadow-lg`}
       >
         <div className="px-10">
           <div className="flex items-center justify-between pt-4">
@@ -91,12 +91,13 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 onClose();
               }}
             >
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="relative hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Home
               </p>
+         
             </a>
             <Link href="/aboutus" onClick={onClose}>
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 About Us
               </p>
             </Link>
@@ -110,22 +111,22 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 onClose();
               }}
             >
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Services
               </p>
             </a>
             <Link href="portfolio" onClick={onClose}>
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Portfolio
               </p>
             </Link>
             <Link href="testimonial" onClick={onClose}>
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Work Process
               </p>
             </Link>
             <Link href="contact" onClick={onClose}>
-              <p className="hover:text-md cursor-pointer text-lg text-[#76c9b8] transition-all duration-300 hover:text-white/80">
+              <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Contact Us
               </p>
             </Link>
