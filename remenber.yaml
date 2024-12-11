@@ -1,0 +1,8 @@
+// extra data for portfolio json file
+{
+      "title": "High Fashion Editorial Shoot",
+      "description": "Elegant fashion editorial featuring vertical composition and dramatic lighting",
+      "image": "https://digitalpencil.tech/wp-content/uploads/2024/11/16-724x1024.jpg",
+      "link": "#",
+      "tags": ["Magazine", "Fashion", "Print"]
+}

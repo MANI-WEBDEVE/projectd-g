@@ -120,7 +120,7 @@ const SideNav = ({ isOpen, onClose }: SideNavProps) => {
                 Portfolio
               </p>
             </Link>
-            <Link href="testimonial" onClick={onClose}>
+            <Link href="workprocess" onClick={onClose}>
               <p className="hover:text-md cursor-pointer text-2xl font-bold uppercase text-[#76c9b8] transition-all duration-300 hover:text-white/80">
                 Work Process
               </p>

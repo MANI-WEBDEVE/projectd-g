@@ -3,7 +3,6 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
-import { metadata } from "./metadata";
 import {Toaster} from "react-hot-toast"
 import { Spotlight } from "@/components/ui/Spotlight";
 // const geistSans = localFont({
@@ -17,7 +16,6 @@ import { Spotlight } from "@/components/ui/Spotlight";
 //   weight: "100 900",
 // });
 
-export { metadata };
 
 export default function RootLayout({
   children,
@@ -26,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="w-full bg-neutral-950">
+    
       <body className="bg-neutral-950 text-white min-h-screen">
         <SmoothScroll>
           {/* <CursorComponent/> */}

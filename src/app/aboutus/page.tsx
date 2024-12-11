@@ -1,5 +1,5 @@
-"use client";
 import { LayoutGrid } from "@/components/ui/layout-grid";
+import { Metadata } from "next";
 
 export default function LayoutGridDemo() {
   return (
@@ -8,7 +8,7 @@ export default function LayoutGridDemo() {
         <LayoutGrid cards={cards} />
       </div>
       <div className="w-full md:w-1/2 h-[80vh]  flex flex-col justify-center items-start   md:items-center gap-5">
-        <h2 className="text-4xl font-bold px-10 uppercase">About Agency</h2>
+        <h2 className="text-4xl font-bold px-10 uppercase">Ab<span className="text-blue-500 font-thin">out </span>Age<span className="text-blue-500 font-thin">ncy</span></h2>
         <p className="px-10 text-xs md:text-sm md:text-center">
           We are a dynamic, full-service creative agency specializing in a wide
           range of services to help your business thrive. From Logo Creation and
@@ -117,3 +117,9 @@ const cards = [
       "https://digitalpencil.tech/wp-content/uploads/slider/cache/d6b137dee3ea65483e9026b30225417c/Hompage-Image-01.png",
   },
 ];
+
+
+export const metadata:Metadata={
+  title:"Digital-Pencil✏ | About",
+  description:"Digital-Pencil is a creative agency that specializes in creating bespoke digital experiences. From logo design to website development, we provide innovative solutions that drive results. Contact us today to learn more."
+}

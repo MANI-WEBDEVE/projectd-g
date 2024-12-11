@@ -21,7 +21,7 @@ export default function PortfolioCard({ value }: PortfolioCardProps) {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 p-4">
       {projects.map((project) => (
         <CardContainer key={project.title} className="inter-var">
-          <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] h-auto w-[94%] md:w-full rounded-xl p-6 border hover:bg-slate-400/10">
+          <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] h-auto w-[94%] md:w-full rounded-xl p-6 bg-slate-400/10 sm:bg-slate-400/10 md:bg-transparent  border hover:bg-slate-400/10">
             <CardItem
               translateZ="50"
               className="text-lg md:text-xl font-bold dark:text-white"

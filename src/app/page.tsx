@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import InfiniteLogo from "@/components/InfiniteLogo";
 import Services from "@/components/ServicesSection";
@@ -26,3 +27,11 @@ export default function Home() {
     </>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Digital-Pencil✏",
+  description:
+    "Digital-Pencil is a creative agency that specializes in creating bespoke digital experiences. From logo design to website development, we provide innovative solutions that drive results. Contact us today to learn more.",
+    
+};
+  

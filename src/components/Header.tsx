@@ -55,7 +55,7 @@ const Header = () => {
                 Portfolio
               </p>
             </Link>
-            <Link href={"testimonial"}>
+            <Link href={"workprocess"}>
               <p className="text-[#fff] font-bold transition-all ease-out duration-[0.2s] cursor-pointer hover:text-[#38d6b7]">
                Work Process
               </p>

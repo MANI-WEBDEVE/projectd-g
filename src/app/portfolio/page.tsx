@@ -1,12 +1,13 @@
 import PortfolioCard from "@/components/PortfolioCard";
 import React from "react";
 import { TabsBtn, TabsProvider, TabsContent } from "@/components/tabs";
+import { Metadata } from "next";
 const PortfolioPage = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center ">
       
       <h1 className="text-4xl font-bold tracking-tight leading-3 mt-40">
-        PORTFOLIO
+        PORT<span className="text-blue-500 font-thin">FOLIO</span>
       </h1>
       <div className="min-h-screen pt-24">
         <TabsProvider defaultValue={"Magzine Ads"} wobbly={true}>
@@ -123,3 +124,8 @@ const PortfolioPage = () => {
 };
 
 export default PortfolioPage;
+
+export const metadata :Metadata ={
+  title:"Digital-Pencil✏ | Portfolio",
+  description: "Explore our diverse range of digital art and design projects."
+}

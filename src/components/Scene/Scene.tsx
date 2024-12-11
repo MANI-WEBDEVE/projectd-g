@@ -238,7 +238,7 @@ export default function Scene() {
       >
         <ambientLight intensity={0.7} />
         <directionalLight position={[5, 5, 5]} intensity={0.5} />
-        <Suspense fallback={<Loading/>}>
+        <Suspense fallback={null}>
           <Geometry />
           <ContactShadows
             position={[0, -3.5, 0]}
@@ -392,8 +392,3 @@ const Geometry = React.memo(() => {
   );
 });
 
-const Loading = () => {
-    return <>
-      ...
-    </>
-} 
